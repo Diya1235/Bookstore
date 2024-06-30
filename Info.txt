@@ -1,0 +1,30 @@
+<> </> : This are called as fragmentation(react) and are used frequently in react code in jsx file 
+for including multiple divs as ract normally allows us to add only one div.
+
+Tailwindcss: here we are using the tailwind css which is a css framwork letting us make the use of css easier.
+Vite: With Tailwindcss we are using the Vite framework
+
+flex: one after another the items get arranged
+fixed: makes the navbar fixed with scrolling page
+
+State management is done through hook: React hook(useState):
+Hooks are functions in React which allows us to manage the state, do changes as per the state and other react featuress.
+
+#To give url for particular components:
+  #For Button : use Link to="/example" and further define in App.jsx
+  <Route path="/example" element={<functionname_of_button/>}/>
+
+  #For anchor tag(a) : use href attribute: <a href="/dance">Dance</a>
+   <Route path="/dance" element={<functionname_of_Dance_anchortag/>}/>
+
+ Backend:
+
+ In backend we create model, controller and route folders.
+ In model folder we define the collection and schema
+ In routes we define the routes
+ In controller folder we write the logic of function
+
+
+Axios:
+
+It is used for sending and receiving http request
